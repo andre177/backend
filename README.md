@@ -9,7 +9,7 @@ $ curl -XGET http://localhost:5000/health
 ```
 2. ***/consulta_cep***: Essa rota retorna informações a respeito de um determinado CEP como nome do logradouro, cidade e estado. Exemplo:
 ```sh
-$ curl -XGET http://localhost:5000/consulta_cep?cep=04727160
+$ curl -XGET http://localhost:5000/consulta_cep?cep=05763340
 {
     "bairro": "Jardim Piracuama",
     "cep": "05763-340",
